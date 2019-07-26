@@ -1,13 +1,14 @@
-#
-# Desc.: Sets up all scoreboards needed.
-# Called By: #nuhser_core:init
-# @s: <SERVER>
-#
+#> Sets up all scoreboards needed.
+# Called By: #nuhser_core:init <SERVER>
 
-#create scoreboards
-tellraw @a ["",{"text":"Creating scoreboard and trigger for Better Armor Stands...","color":"yellow"}]
+tellraw @a ["",{"text":"----------------------------------------"}]
+tellraw @a ["",{"text":"better_armor_stand: Loading Better Armor Stand...","color":"dark_purple"}]
 
-scoreboard objectives add nuhser_as trigger
-scoreboard objectives add nuhser_as_pose dummy
+tellraw @a ["",{"text":"better_armor_stand: Creating scoreboard...","color":"yellow"}]
 
-tellraw @a ["",{"text":"Better Armor Stands successful initialized!","color":"green"}]
+# create scoreboards
+scoreboard objectives add armor_stands trigger
+scoreboard objectives add bas_pose dummy
+
+tellraw @a ["",{"text":"better_armor_stand: Loading successful!","color":"green"}]
+tellraw @a ["",{"text":"----------------------------------------"}]
