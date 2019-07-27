@@ -1,13 +1,10 @@
-#
-# Description:	This is a temporary (?) workaround for bug MC-80975
-# Called by:	nuhser_utility:vanilla_tweaks/better_armor_stands_2
-# Entity @s:	armor_stand
-#
+#> This is a temporary (?) workaround for bug MC-80975
+# Called by: better_armor_stand:second <armor_stand>
+
 # Pose data is not stored for parts of the armour stand that are in the "default" positions. This causes the execute store entity
 # and data get entity commands to fail.
 #
 # This function checks for the presence of each parts' pose data and updates it with tweaked default values if not present
-#
 
 execute store success score @s nuhser_as_pose run data get entity @s Pose.Head[0]
 execute if entity @s[scores={nuhser_as_pose=0}] run data merge entity @s {Pose:{Head:[0.0f,0.001f,0.0f]}}
