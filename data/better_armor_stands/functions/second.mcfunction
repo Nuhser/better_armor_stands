@@ -108,6 +108,12 @@ execute as @a[scores={armor_stands=46}] at @s run data merge entity @e[type=armo
 # attention
 execute as @a[scores={armor_stands=47}] at @s run data merge entity @e[type=armor_stand,tag=!nuhser_locked,distance=..3,sort=nearest,limit=1] {Pose:{Body:[0f,0f,0f],Head:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[210f,90f,0f]}}
 
+# on floor
+execute as @a[scores={armor_stands=96}] at @s run data merge entity @e[type=armor_stand,tag=!nuhser_locked,distance=..3,sort=nearest,limit=1] {Pose:{Body:[0f,0f,0f],Head:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[180f,0f,0f]}}
+
+# on wall
+execute as @a[scores={armor_stands=97}] at @s run data merge entity @e[type=armor_stand,tag=!nuhser_locked,distance=..3,sort=nearest,limit=1] {Pose:{Body:[0f,0f,0f],Head:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[270f,270f,0f]}}
+
 # bugfix
 execute as @a[scores={armor_stands=60..95}] at @s as @e[type=armor_stand,tag=!nuhser_locked,distance=..3,sort=nearest,limit=1] run function better_armor_stands:bugfix
 
