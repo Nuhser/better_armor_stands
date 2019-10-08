@@ -137,7 +137,7 @@ give @s written_book{
 			{\"text\":\"\\nBlocking\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 45\"}},
 			{\"text\":\"     .\",\"color\":\"white\"},
 			{\"text\":\"Lazing\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 55\"}},
-			{\"text\":\"\\nLungeing\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 46\"}},
+			{\"text\":\"\\nLunging\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 46\"}},
 			{\"text\":\"    .\",\"color\":\"white\"},
 			{\"text\":\"Confused\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 56\"}},
 			{\"text\":\"\\nWinning\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger as_trigger set 47\"}},
