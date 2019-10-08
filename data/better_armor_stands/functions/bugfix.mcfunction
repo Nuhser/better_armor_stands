@@ -1,4 +1,4 @@
-#> This is a temporary (?) workaround for bug MC-80975
+#> This is a temporary (?) workaround for bug MC-80975.
 # Called by: better_armor_stand:second <armor_stand>
 
 # Pose data is not stored for parts of the armour stand that are in the "default" positions. This causes the execute store entity
