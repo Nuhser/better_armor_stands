@@ -9,6 +9,7 @@ tellraw @a ["",{"text":"better_armor_stand: Creating scoreboard...","color":"yel
 # create scoreboards
 scoreboard objectives add armor_stands trigger
 scoreboard objectives add bas_pose dummy
+scoreboard objectives add bas_step_angle dummy
 
 tellraw @a ["",{"text":"better_armor_stand: Loading successful!","color":"green"}]
 tellraw @a ["",{"text":"----------------------------------------"}]
