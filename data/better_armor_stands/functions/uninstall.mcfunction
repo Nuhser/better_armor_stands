@@ -11,4 +11,4 @@ scoreboard objectives remove bas_step_angle
 tellraw @a ["",{"text":"Better Armor Stands successful uninstalled!","color":"green"}]
 
 # disable better_armor_stands
-datapack disable "file/better_armor_stands"
+datapack disable "file/better_armor_stand"
