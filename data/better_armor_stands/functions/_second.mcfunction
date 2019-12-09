@@ -5,7 +5,7 @@
 scoreboard players enable @a armor_stands
 
 # give armor stand book
-execute as @a[scores={armor_stands=1}] run function better_armor_stands:give_book
+execute as @a[scores={armor_stands=1}] run function better_armor_stands:_give_book
 
 # check target
 execute as @a[scores={armor_stands=2}] at @s run effect give @e[type=armor_stand,tag=!bas_locked,distance=..3,sort=nearest,limit=1] glowing 3 0 true

@@ -1,6 +1,6 @@
 {
   "replace": false,
 	"values": [
-		"better_armor_stands:init"
+		"better_armor_stands:_init"
 	]
 }
