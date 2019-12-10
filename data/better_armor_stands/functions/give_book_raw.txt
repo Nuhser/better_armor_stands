@@ -1,5 +1,5 @@
 give @s written_book{
-    title:"Better Armor Stands v3.1.0",
+    title:"Better Armor Stands",
     author:Nuhser,
     pages:[
         "[
