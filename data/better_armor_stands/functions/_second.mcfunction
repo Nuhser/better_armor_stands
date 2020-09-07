@@ -55,6 +55,9 @@ execute as @a[scores={armor_stands=111..112}] at @s run function better_armor_st
 # reset
 execute as @a[scores={armor_stands=113}] at @s run function better_armor_stands:trigger/reset
 
+# invisible item frame
+execute as @a[scores={armor_stands=114}] at @s run function better_armor_stands:trigger/invisible_item_frame
+
 # # reset all
 # execute as @a[scores={armor_stands=33}] at @s run data merge entity @e[type=armor_stand,tag=!bas_locked,distance=..3,sort=nearest,limit=1] {ShowArms:0b,NoBasePlate:0b,Small:0b,NoGravity:0b,CustomNameVisible:0b,Invisible:0b,Pose:{Body:[0f,0f,0f],Head:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},Rotation:0f}
 
